@@ -19,7 +19,7 @@ pipeline {
                     mysql \
                     --host=\$DATABASES_HOST \
                     --port=\$DATABASES_PORT \
-                    -user=\$DB_CREDENTIALS_USR \
+                    
                     -password=\$DB_CREDENTIALS_PSW \
                     -e 'SHOW DATABASES;'
                 """
